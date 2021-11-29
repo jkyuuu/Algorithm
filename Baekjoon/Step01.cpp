@@ -1,7 +1,5 @@
 #include <iostream>
 
-#include <iostream>
-
 using namespace std;
 
 int main()
@@ -28,6 +26,7 @@ int main()
 
     int A;
     int B;
+    int C;
 
     cout << "A+B" << endl;
     cin >> A >> B;
@@ -60,5 +59,13 @@ int main()
     cout << "-----------------------" << endl;
 
 
+    cout << "(A+B)%C는 ((A%C) + (B%C))%C 와 같을까?" << endl;
+    cout << "(A*B)%C는 ((A%C) × (B%C))%C 와 같을까?" << endl;
+    cin >> A >> B >> C;
+    cout << (A + B) % C << endl;
+    cout << ((A % C) + (B % C)) % C << endl;
+    cout << (A * B) % C << endl;
+    cout << ((A % C) * (B % C)) % C << endl;
+    cout << "-----------------------" << endl;
 
 }
