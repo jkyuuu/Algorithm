@@ -27,6 +27,7 @@ int main()
     int A;
     int B;
     int C;
+    int D;
 
     cout << "A+B" << endl;
     cin >> A >> B;
@@ -67,5 +68,19 @@ int main()
     cout << (A * B) % C << endl;
     cout << ((A % C) * (B % C)) % C << endl;
     cout << "-----------------------" << endl;
+
+    cout << "ABC * DEF" << endl;
+    cin >> A;
+    cin >> B >> C >> D;
+    if (100 <= A <= 999 && 1 <= B <= 9 && 0 <= C,D <= 9)
+    {
+        cout << A * D << endl;
+        cout << A * C * 10 << endl;
+        cout << A * B * 100 << endl;
+    }
+    else
+    {
+        cout << "ÀçÀÔ·Â" << endl;
+    }
 
 }
