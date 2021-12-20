@@ -69,22 +69,4 @@ int main()
     cout << ((A % C) * (B % C)) % C << endl;
     cout << "-----------------------" << endl;
 
-    /*cout << "A * BCD" << endl;
-    cin >> A;
-    cin >> B >> C >> D;
-    if (100 <= A <= 999 && 1 <= B <= 9 && 0 <= C, D <= 9)
-    {
-        cout << A * D << endl;
-        cout << A * C * 10 << endl;
-        cout << A * B * 100 << endl;
-        int E = A * D;
-        int F = A * C * 10;
-        int G = A * B * 100;
-        cout << E + F + G << endl;
-    }
-    else
-    {
-        cout << "ÀçÀÔ·Â" << endl;
-    }*/
-
 }
