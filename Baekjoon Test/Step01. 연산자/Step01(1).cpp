@@ -7,8 +7,8 @@ int main()
     cout << "Hello World!" << endl;
     cout << "-----------------------" << endl;
 
-    cout << "°­ÇÑÄ£±¸ ´ëÇÑÀ°±º" << endl;
-    cout << "°­ÇÑÄ£±¸ ´ëÇÑÀ°±º" << endl;
+    cout << "ê°•í•œì¹œêµ¬ ëŒ€í•œìœ¡êµ°" << endl;
+    cout << "ê°•í•œì¹œêµ¬ ëŒ€í•œìœ¡êµ°" << endl;
     cout << "-----------------------" << endl;
 
     cout << "\\    /\\" << endl;
@@ -60,8 +60,8 @@ int main()
     cout << "-----------------------" << endl;
 
 
-    cout << "(A+B)%C´Â ((A%C) + (B%C))%C ¿Í °°À»±î?" << endl;
-    cout << "(A*B)%C´Â ((A%C) ¡¿ (B%C))%C ¿Í °°À»±î?" << endl;
+    cout << "(A+B)%CëŠ” ((A%C) + (B%C))%C ì™€ ê°™ì„ê¹Œ?" << endl;
+    cout << "(A*B)%CëŠ” ((A%C) Ã— (B%C))%C ì™€ ê°™ì„ê¹Œ?" << endl;
     cin >> A >> B >> C;
     cout << (A + B) % C << endl;
     cout << ((A % C) + (B % C)) % C << endl;
