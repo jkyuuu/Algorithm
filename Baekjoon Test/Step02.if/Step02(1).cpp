@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-	// 1) 두 수 비교하기
+	// Q1 두 수 비교하기
 
 	int A;
 	int B;
@@ -25,7 +25,7 @@ int main()
 	}
 
 
-	// 2) 점수 별 시험 성적 산출
+	// Q2 점수 별 시험 성적 산출
 
 	int A = 0;
 
@@ -53,7 +53,7 @@ int main()
 	}
 
 
-	// 3) 윤년
+	// Q3 윤년
 
 	int a;
 
@@ -81,7 +81,7 @@ int main()
 
 
 
-	// 사분면
+	// Q4 사분면
 
 	int x;
 	int y;
@@ -111,5 +111,43 @@ int main()
 			cout << "3" << endl;
 		}
 	}
+
+
+	// Q5 알람 문제
+
+	int H, M;
+	cin >> H >> M;
+
+	if (45 <= M)
+	{
+		M -= 45;
+	}
+	else
+	{
+		M += 15;
+		if (--H < 0)
+		{
+			H = 23;
+		}
+	}
+	cout << H << " " << M << endl;
+
+
+
+	/*if (M < 45)
+	{
+		if (H == 0)
+		{
+			cout << 23 << " " << M + 15 << endl;
+		}
+		else
+		{
+			cout << --H << " " << M + 15 << endl;
+		}
+	}
+	else
+	{
+		cout << H << " " << M - 45 << endl;
+	}*/
 
 }
