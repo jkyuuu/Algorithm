@@ -80,4 +80,36 @@ int main()
 	}
 
 
+
+	// »çºÐ¸é
+
+	int x;
+	int y;
+
+	cin >> x;
+	cin >> y;
+
+	if (0 < x)
+	{
+		if (0 < y)
+		{
+			cout << "1" << endl;
+		}
+		else
+		{
+			cout << "4" << endl;
+		}
+	}
+	else
+	{
+		if (0 < y)
+		{
+			cout << "2" << endl;
+		}
+		else
+		{
+			cout << "3" << endl;
+		}
+	}
+
 }
