@@ -7,7 +7,7 @@ int main()
 	// Q1 두 수 비교하기
 
 	int A;
-	int B;
+	int B; 
 
 	cin >> A >> B;
 

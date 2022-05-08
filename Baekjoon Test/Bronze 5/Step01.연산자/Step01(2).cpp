@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-	// Step01 마지막 문제
+	// Step01 마지막 문제 
 
 	// 방법 1 (char)
 
